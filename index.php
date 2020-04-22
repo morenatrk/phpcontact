@@ -13,12 +13,7 @@ if (@$_GET['mesaj']=='ok') {?>
 	
 <?php  }?>
 
-<?php 
 
-if (@$_GET['mesaj']=='no') {
-	# code...
-}
- ?>
 
 
 
