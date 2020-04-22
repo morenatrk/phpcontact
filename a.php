@@ -14,7 +14,7 @@ exit;
 
 if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) { authenticate(); } else
 {
-for($i=0;$i<count($kul);$i++) { if($_SERVER['PHP_AUTH_USER']==$kul[$i]['username'] && $_SERVER['PHP_AUTH_PW']==$kul[$i]['password']){$auth=TRUE;}}
+for($i=0;$i<count($admin);$i++) { if($_SERVER['PHP_AUTH_USER']==$admin[$i]['username'] && $_SERVER['PHP_AUTH_PW']==$admin[$i]['password']){$auth=TRUE;}}
 if($auth !=TRUE) {authenticate();}
 }
 ?>
